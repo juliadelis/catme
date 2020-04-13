@@ -1,0 +1,168 @@
+*,
+*::after,
+*::before{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+    font-family: 'Montserrat';
+   
+    
+	
+
+}
+
+.a{
+    background-color: #BA80C9;
+    border: 10px solid #BA80C9;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+   
+    
+
+}
+
+.backgroundA{
+    background-color: #AD43C9;
+}
+
+.b{
+    background-color: #AD43C9;
+    border: 10px solid #AD43C9;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    padding-top: 5%;
+    padding-bottom: 11%;
+}
+.c{
+    background-color: white !important;
+}
+.background{
+    width: 100%;
+    height: 148px;
+   
+    align-self: flex-end;
+
+}
+
+
+
+.background a img{
+    width: 44.23px;
+    height: 84.39px;
+    
+
+}
+
+ul{
+    
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ 
+}
+ul div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    
+
+ 
+}
+.b h2{
+    color: white;
+}
+.b ul{
+    color: white;
+}
+
+span{
+    text-transform: uppercase; 
+    font-size:18pt ;
+}
+
+
+li a {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: white;
+    margin-bottom: 15%;
+    text-decoration: none;
+
+}
+
+li{
+    position: relative;
+}
+.c h2{
+    color:#FBB03B ;
+    font-size: 34px;
+    font-weight: bolder;
+    padding-top: 4%;
+    margin-left: 27%;
+}
+.c ul{
+    color: #FBB03B;
+
+}
+
+div.epeciais .selected{
+    background-color: #BA80C9;
+    top: 10px;
+    left: -3px;
+    width: 100%;
+    }
+
+
+.selected{
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    top: -8px;
+    left: -3.5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color:#FBB03B;
+}
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.b{
+    padding-bottom: 0 !important;
+}
+
+div.epeciais{
+    color: #FBB03B;
+    margin-bottom: 2%;
+}
+div.epeciais li a{
+    color: #FBB03B;  
+    margin-bottom: 0;
+    margin-top: 10%;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+ul li a{
+    position: relative;
+    z-index: 2;
+}
+.opacity{
+    opacity: 1;
+}
